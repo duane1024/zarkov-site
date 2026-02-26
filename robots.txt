@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.zarkov.dev/sitemap.xml
