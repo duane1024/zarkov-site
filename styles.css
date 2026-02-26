@@ -380,25 +380,44 @@ a { color: var(--cyan); }
     gap: 32px;
   }
 
+  .hero {
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 55vh;
+    margin-top: -30px;
+  }
+
   .hero-overlay {
-    padding: 40px 24px 0;
+    padding: 32px 24px 40px;
+    text-align: center;
+    background: var(--white);
+    order: 1;
+  }
+
+  .hero h1 {
+    max-width: none;
   }
 
   .hero-wave {
-    height: 140px;
+    height: 70px;
   }
 
-  .hero-wave svg:first-child { height: 140px !important; }
-  .hero-wave svg:nth-child(2) { height: 125px !important; }
-  .hero-wave svg:nth-child(3) { height: 112px !important; }
-  .hero-wave svg:nth-child(4) { height: 100px !important; }
+  .hero-wave--bottom {
+    position: relative;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    width: 100%;
+    order: 0;
+  }
+
+  .hero-wave svg:first-child { height: 70px !important; }
+  .hero-wave svg:nth-child(2) { height: 62px !important; }
+  .hero-wave svg:nth-child(3) { height: 55px !important; }
+  .hero-wave svg:nth-child(4) { height: 48px !important; }
 
   .brand-bar {
     padding: 20px 20px 30px;
-  }
-
-  .hero {
-    margin-top: -30px;
   }
 
   .global {
