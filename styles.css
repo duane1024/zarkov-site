@@ -365,6 +365,27 @@ a { color: var(--cyan); }
   color: var(--navy);
 }
 
+.powered-by {
+  margin-top: 8px !important;
+}
+
+.powered-by a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.powered-by img {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+}
+
+.powered-by span {
+  text-decoration: underline;
+}
+
 /* ── Responsive ── */
 
 @media (max-width: 860px) {
